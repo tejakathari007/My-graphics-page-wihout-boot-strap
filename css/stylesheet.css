@@ -1,0 +1,359 @@
+header
+{   
+	height:80px;
+	background-image: url("../img/b1.jpg");
+	background-repeat: no-repeat;
+	text-decoration: none;
+	 width: 100%;
+	 margin-right: 20px;
+   position: fixed;
+}
+.log
+{
+margin-left: 20px;
+}
+nav 
+{
+	   float: right;
+      font-family: 'Lato', sans-serif;
+   	font-weight: bold;
+
+   }
+    a,.container
+   {
+text-decoration: none;
+color: white;
+     
+}
+
+nav li
+  {
+display: inline;
+padding: 20px;
+
+   }
+   	
+   	ul a:hover
+   {
+   	color: orange;
+   }
+
+  .marg
+  {
+margin-top: 20px;
+  }
+
+
+.hero{
+	float: right;
+}
+
+
+  .lin{ 
+  	margin-top: 40px;
+  	margin-left: 45%;
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+}
+
+
+.tend{
+	margin-top: 150px;
+}
+
+
+.aside
+{
+	margin-left: 54%; 
+	margin-top: 15px;
+font-family: 'IM Fell English SC', serif;
+	font-size: 35px;
+	color: #381738;
+	font-style: italic;
+}
+.aside0
+{
+	margin-left: 53%; 
+	margin-top: 0px;
+	font-family: 'Assistant', sans-serif;
+	font-size: 50px;
+	color: #8f6b8c;
+	text-shadow: 2px 2px #003300;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.aside1
+{
+	margin-left: 54%; 
+	margin-top: 0px;
+	margin-right: 10%;
+	color: black;
+	font-family: 'Amaranth', sans-serif;
+	text-align: justify;
+	font-style: italic;
+
+}
+.aside2
+{
+	margin-left: 80%; 
+	font-size: 15px;
+	color:   #b7950b  ; 
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	padding-right: 20px;
+	word-spacing: 1em;
+
+}
+.mve
+{
+  animation: Mvetpdwn 20s linear infinite;
+  position: absolute;
+  margin-left: 25px;
+  margin-bottom: 60px;
+
+}
+
+@keyframes Mvetpdwn {
+  0%, 100% {
+    bottom: 0px;
+
+  }
+  50% {
+    bottom: 0px;
+     transform: rotate(-45deg);
+  }
+}
+
+.pos
+{
+  animation: Mveltr 10s linear infinite;
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 0px;
+5
+}
+
+@keyframes Mveltr {
+  0%, 100% {
+    left: 10px;
+    margin-top: 10px;
+
+  }
+  50% {
+    left: 1100px;
+     transform: rotate(360deg);
+  }
+}
+
+.stm
+{
+  animation: Mvsltr 100s linear infinite;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 0px;
+
+}
+
+@keyframes Mvsltr {
+  0%, 100% {
+    left: 1200px;
+
+  }
+  50% {
+    left: 1200px;
+   
+  }
+}
+
+.bail
+{
+  animation: Mvbtt 50s linear infinite;
+  position: absolute;
+  margin-left: 1200px;
+
+}
+
+@keyframes Mvbtt {
+  0%, 100% {
+    bottom: 100px;
+
+  }
+  50% {
+    bottom: 200px;
+   transform: rotate(360deg);
+  }
+}
+.hel
+{
+  animation: Mvttb 30s linear infinite;
+  position: absolute;
+  margin-left: 60px;
+
+}
+
+@keyframes Mvttb {
+  0%, 100% {
+    top: 80px;
+
+  }
+  50% {
+    top: 200px;
+   transform: rotate(60deg);
+  }
+}
+
+.cup
+{
+  animation: Mvbtb 20s linear infinite;
+  position: absolute;
+  margin-left: 1180px;
+
+}
+
+@keyframes Mvbtb {
+  0%, 100% {
+    bottom: 250px;
+
+  }
+  50% {
+    bottom: 350px;
+  }
+}
+
+.object 
+{
+  animation: MoveUpDown 2s linear infinite;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+	margin-left: 50%;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 40px;
+  }
+}
+.fside
+{
+
+	margin-top: 120px;
+	font-size: 30px; 
+	font-family: 'Assistant', sans-serif; 
+	color: #02313b; 
+	border-left: 5px solid #b99379;
+	padding-left: 0px;
+	font-weight: bold;
+}
+.title
+{
+	font-size: 50px;}
+.vk
+	{margin-top: 10px;}
+
+{
+
+	margin-top: 30px;
+	
+}
+
+.title2{
+	font-size: 30px; 
+  font-family: 'Assistant', sans-serif; 
+  color: #02313b; 
+  padding-left: 5px;
+  font-weight: bold;
+  background-color: #b99379;
+}
+.cside1
+{
+  margin-top: 30px;
+  margin-left: 0px;
+  padding-right: 10px;
+
+   
+}
+
+.example span{
+  position: absolute;
+  width: 1px;
+height:50px;
+          transition: all 2s ease;
+          animation: imganim 6s;
+          transition-property: width;
+}
+
+
+@keyframes imganim {
+from {width: 200px; height:50px;} 
+to {width: 10px; height: 50px;}
+}
+
+.red{
+  margin-top: 50px;
+}
+.rules{
+  font-size: 18px;
+  font-family: 'Assistant', sans-serif;
+  margin-left: 0px;
+
+}
+
+aside
+{
+ 
+margin-top: 20px;
+
+}
+.title3{
+  font-size: 30px;
+  font-family: 'Assistant', sans-serif; 
+  color: #02313b; 
+  padding-left: 5px;
+  font-weight: bold;
+  background-color: #b99379;
+  margin-top: 25px;
+ 
+}
+
+.example1 span{
+  position: absolute;
+  width: 0px;
+height:50px;
+transition: left 2s ease;
+  animation: imgan 6s;
+  transition-property: width;
+        
+}
+
+@keyframes imgan {
+from {width: 0px; height:50px;} 
+to {width: 200px; height: 50px;}
+}
+.rules1{
+  font-size: 18px;
+  margin-top: 80px;
+   font-family: 'Assistant', sans-serif;
+}
+
+
+.cside4{ 
+  font-size: 18px;
+  margin-top: 5px;
+  font-family: 'Assistant', sans-serif;
+}
+
+article li
+  {
+display: inline;
+padding: 20px;
+}
